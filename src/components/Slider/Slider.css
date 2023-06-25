@@ -1,0 +1,98 @@
+.slider{
+    background-color: #A82D49;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+   padding:150px 0;
+  
+}
+.slider h2{
+ color:#fff;
+ position: relative;
+ top:-30px;
+
+
+
+
+
+}
+.slider .carousel-caption , .slider .slideImg{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color:#fff;
+    z-index: 1;
+    
+    
+}
+.slider .carousel-caption{
+    background-color: #fff;
+    
+}
+.slider .carousel-caption p{
+    width:80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 500;
+    line-height: 2;
+}
+.slider .slideImg{
+    border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.slider .carousel-caption {
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   color:#555555;
+
+}
+
+.slider img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+   
+   
+   
+}
+
+
+
+.slider .carousel-control-next-icon,.slider .carousel-control-prev-icon {
+   display: none;
+}
+.slider .visually-hidden {
+    color:transparent;
+}
+.slider .carousel-indicators{
+    position: absolute;
+    bottom: -50px;
+    z-index: 1 !important;
+ 
+   
+}
+.slider .carousel-indicators button {
+    width: 20px !important;
+    height:20px !important;
+    border-radius: 50%;
+   opacity: 0.3;
+   border-color:transparent;
+  
+    
+
+   
+  }
+  
+  .slider .carousel-indicators button:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+  
+  .slider .carousel-indicators .active {
+  opacity:1 ;
+  }
+
+
+
